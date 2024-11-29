@@ -30,7 +30,7 @@ body{
     background-blend-mode: multiply;
     mask-image: url(images/soda.png);
     mask-size: auto 100%;
-    width: 13vw;
+    width: 300px;
     aspect-ratio: 2/4;
     transition: 0.9s;
    
