@@ -15,8 +15,8 @@ body{
     height: 500px;
     position: absolute;
     left:50%;
-    bottom: 50%;
-    transform: translateX(-50%) translateY(-10%);
+    top: 50%;
+    transform: translateX(-50%);
     z-index: 1;
     transition: 0.7s;
     --left:0px;
@@ -38,6 +38,6 @@ body{
 
 .product:hover{
     --left:-1900px;
-    transform: translateX(-50%) translateY(-50%);
+    top:30%;
     
 }
