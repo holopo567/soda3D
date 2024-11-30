@@ -47,6 +47,8 @@ body{
 }
 
 .title{
+    width:100px;
+    color:white;
     font-size:30px;
     bottom:1%;
     left:1%;
