@@ -15,7 +15,7 @@ body{
     height: 500px;
     position: absolute;
     left:50%;
-    top: 50%;
+    top: 30%;
     transform: translateX(-50%);
     z-index: 1;
     transition: 0.7s;
@@ -33,7 +33,7 @@ body{
     background-blend-mode: multiply;
     mask-image: url(images/soda.png);
     mask-size: auto 100%;
-    width: 200px;
+    width: 180px;
     aspect-ratio: 2/4;
     transition: 0.9s;
    
@@ -41,6 +41,6 @@ body{
 
 .product:hover{
     --left:-900px;
-    top:30%;
+    top:10%;
     
 }
