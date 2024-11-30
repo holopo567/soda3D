@@ -19,7 +19,7 @@ body{
     transform: translateX(-50%);
     z-index: 1;
     transition: 0.7s;
-    --left:0px;
+    --left:-10px;
 }
 
 .soda{
@@ -40,7 +40,7 @@ body{
 }
 
 .product:hover{
-    --left:-900px;
+    --left:-500px;
     top:10%;
     
 }
