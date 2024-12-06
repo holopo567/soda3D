@@ -9,7 +9,6 @@ body{
 
 }
 
-
 .product{
     /* background-color: blue; */
     width: 500px;
@@ -17,16 +16,16 @@ body{
     position: absolute;
     left:50%;
     top: 30%;
-    transform: translateX(-50%);
+    transform: translate(-50%);
     z-index: 1;
     transition: 0.7s;
-    --left:-10px;
+    --left:0px;
 }
 
 .soda{
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    left:50%;
+    transform: translate(-50%);
     background:
         url(images/couver1.png) var(--left) 0px,
         url(images/soda.png);
@@ -34,16 +33,23 @@ body{
     background-blend-mode: multiply;
     mask-image: url(images/soda.png);
     mask-size: auto 100%;
-    width: 180px;
+    width: 13vw;
     aspect-ratio: 2/4;
     transition: 0.9s;
+
    
 }
 
 .product:hover{
     --left:-500px;
-    top:10%;
+    top: 10%;
     
+}
+
+@media(max-width:600px){
+    .soda{
+        width: 20vh;
+    }
 }
 
 .title{
